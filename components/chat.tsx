@@ -15,7 +15,7 @@ import { toast } from 'sonner'
 export interface ChatProps extends React.ComponentProps<'div'> {
   initialMessages?: Message[]
   id?: string
-  userId?: string
+  userId?: string | null
   missingKeys: string[]
 }
 
